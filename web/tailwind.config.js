@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: 'var(--font-roboto)',
-        alt: 'var(--font-bay-jamjuree)'
+        alt: 'var(--font-alt)'
       },
       colors: {
         gray: {
