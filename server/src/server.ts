@@ -12,12 +12,14 @@ const app = fastify();
 app.register(cors, {
   origin: true
 });
+
 app.register(jwt, {
   secret: 'spacetime'
 });
+
+app.register(authRoutes);
 app.register(userRoutes);
 app.register(memoriesRoutes);
-app.register(authRoutes);
 
 app
   .listen({

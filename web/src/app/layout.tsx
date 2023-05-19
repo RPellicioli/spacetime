@@ -5,7 +5,7 @@ import {
   Bai_Jamjuree as BaiJamjuree
 } from 'next/font/google';
 
-const robotoFont = Roboto({ subsets: ['latin'], variable: '--font-roboto' });
+const robotoFont = Roboto({ subsets: ['latin'], variable: '--font-sans' });
 const altFont = BaiJamjuree({
   subsets: ['latin'],
   weight: '700',
