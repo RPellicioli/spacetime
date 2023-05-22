@@ -30,6 +30,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body
+        suppressHydrationWarning={true}
         className={`${robotoFont.variable} ${altFont.variable} bg-gray-900 font-sans text-gray-100`}
       >
         <main className="grid min-h-screen grid-cols-2">
